@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: black;
+}
+.navbar .nav-item{
+    padding-left: 1em;
+}
+.navbar .nav-link{
+    font-size: 20px;
+}
+.navbar i{
+    color: #fff;
+}
+.carousel-item{
+    height: 450px;
+}
+.carousel-img-1{
+    background: url(../image/image1.jpeg);
+    background-size: cover;
+}
+ .carousel-img-2{
+     background: url(../image/image2.jpeg);
+     background-size: cover;
+ }
+ .carousel-img-3{
+     background: url(../image/image3.jpeg);
+     background-size: cover;
+ }  
+ #homeicon i{
+    font-size: 50px; 
+ } 
+ #getstarted{
+     background: url(../image/bg1.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: top;
+     background-attachment: fixed;
+     min-height: 250px;
+     position: relative;
+ }
+ .dark-overlay{
+     background: rgba(0, 0, 0, 0.7);
+     position: absolute;
+     height: 100%;
+     width: 100%;
+     top: 0;
+     left: 0;
+ }
+ #home-vedio{
+    background: url(../image/people.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    min-height: 250px;
+    position: relative;
+ }
+ .dark{
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0
+ }
+ #home-vedio i{
+   font-size: 40px;
+ }
+ #galery img{
+     min-height: 250px;
+     width: 100%;
+ }
+ footer{
+    background: #000;
+    
+ }
+ footer h3{
+     color: white;
+ }
+ footer ul li a{
+     color: white;
+     text-decoration: none;
+     font-size: 20px;
+ }
+
+ /*###########*/
+ #page-header{
+     background: url(../image/image1.jpeg);
+     min-height: 250px;
+     background-size: cover;
+     background-attachment: fixed;
+ }
+ #boxe-icon h3{
+     font-size: 30px;
+ }
+ #boxe-icon i{
+    font-size: 50px;
+    color: #fff;
+ }
+ #page-header2{
+     background: url(../image/service.jpeg) no-repeat;
+     background-size: cover;
+     min-height: 250px;
+     background-attachment: fixed;
+
+ }
+ #accordion h5{
+     font-size: 20px;
+    color: #000;
+ }
+ #page-header3{
+     background: url(../image/road.jpeg) no-repeat;
+     background-position: center;
+     min-height: 250px;
+     background-size: cover;
+     background-attachment: fixed;
+ }
+ #page-header4{
+     background: url(../image/space.webp) no-repeat;
+     background-position: top;
+     min-height: 250px;
+     background-size: cover;
+     background-attachment: fixed;
+ }
+@media (max-width: 768px) {
+    .navbar .nav-item{
+        padding-left: 0;
+    }
+    #getstarted{
+        min-height: 300px;
+    }
+    #getstarted p{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 480px) {
+    #showcase h2{
+        font-size: 2.5rem;
+    }
+    #showcase p{
+        font-size: 1.15rem;
+    }
+    #getstarted{
+        min-height: 350px;
+    }
+    #getstarted p{
+        font-size: 1.15rem;
+    }
+}
